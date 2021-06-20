@@ -1,0 +1,13 @@
+argentina,americasul,41.67,buenosaires,-34.6131500,-58.3772300
+bolivia,americasul,9.70,lapaz,-16.5000000,-68.1500000
+brasil, americasul, 206.12, brasilia, -15.7797200, -47.9297200
+chile, americasul, 16.80, santiago, -33.4569400, -70.6482700
+colombia, americasul, 46.86, bogota,  4.6097100, -74.0817500
+equador, americasul, 14.88, quito, -0.2298500, -78.5249500
+guiana, americasul, 0.07, georgetwon, 6.8044800, -58.1552700 
+guianafrancesa, americasul, 2.88, caiena, 4.9333300, -52.3333300
+paraguai, americasul, 6.24, assuncao, -25.3006600, -57.6359100
+peru, americasul, 28.22, lima, -12.0431800, -77.0282400
+suriname, americasul, 0.04, paramaribo, 5.8663800, -55.1668200
+venezuela, americasul, 31.02, caracas, 10.4880100, -66.8791900
+uruguai, americasul, 3.35, montevideu, -34.9032800, -56.1881600

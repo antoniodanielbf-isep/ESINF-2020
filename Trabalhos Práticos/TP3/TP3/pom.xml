@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ António Daniel Barbosa Fernandes, [17.05.21 19:26]
+  ~ Copyright (c) 2021.
+  ~
+  ~ Programador: António Daniel Barbosa Fernandes
+  ~
+  ~ UserName: anton
+  ~ ----------------
+  ~ INFORMAÇÕES:
+  ~ Nome do Projeto: GITHUB 1190402
+  ~ Módulo: GITHUB 1190402
+  ~ Caminho: E:/GITHUB 1190402/Licenciatura/2ºANO/1ºSEMESTRE/ESINF/Trabalhos Práticos/TP3/TP3/pom.xml
+  ~ Ficheiro:  pom.xml
+  ~ Última Edição: 18/05/21, 19:15
+  ~ Nome da Classe: pom.xml
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>adbf</groupId>
+    <artifactId>TP3</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>

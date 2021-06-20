@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ António Daniel Barbosa Fernandes, [17.05.21 19:26]
+  ~ Copyright (c) 2021.
+  ~
+  ~ Programador: António Daniel Barbosa Fernandes
+  ~
+  ~ UserName: anton
+  ~ ----------------
+  ~ INFORMAÇÕES:
+  ~ Nome do Projeto: GITHUB 1190402
+  ~ Módulo: GITHUB 1190402
+  ~ Caminho: E:/GITHUB 1190402/Licenciatura/2ºANO/1ºSEMESTRE/ESINF/Trabalhos Práticos/TP2/TP2_1190402_1191045/nbactions.xml
+  ~ Ficheiro:  nbactions.xml
+  ~ Última Edição: 03/06/21, 10:36
+  ~ Nome da Classe: nbactions.xml
+  -->
+
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <packagings>
+            <packaging>jar</packaging>
+        </packagings>
+        <goals>
+            <goal>process-classes</goal>
+            <goal>org.codehaus.mojo:exec-maven-plugin:1.5.0:exec</goal>
+        </goals>
+        <properties>
+            <exec.args>-classpath %classpath isep.dei.esinf.tp2_1190402_1191045.Main</exec.args>
+            <exec.executable>java</exec.executable>
+        </properties>
+    </action>
+    <action>
+        <actionName>debug</actionName>
+        <packagings>
+            <packaging>jar</packaging>
+        </packagings>
+        <goals>
+            <goal>process-classes</goal>
+            <goal>org.codehaus.mojo:exec-maven-plugin:1.5.0:exec</goal>
+        </goals>
+        <properties>
+            <exec.args>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath
+                isep.dei.esinf.tp2_1190402_1191045.Main
+            </exec.args>
+            <exec.executable>java</exec.executable>
+            <jpda.listen>true</jpda.listen>
+        </properties>
+    </action>
+</actions>
